@@ -5,6 +5,8 @@
 button:onhover{
     background-color: grey;
 }
-
+*{
+    font-weight: bold;
+}
 
 /* 513  */
