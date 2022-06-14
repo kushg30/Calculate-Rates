@@ -71,7 +71,7 @@
         sub.addEventListener('click', (e) => {
             e.preventDefault();
 
-            let amt = (rate.value / 1000) * amount.value;
+            let amt = (1000/ rate.value) * amount.value;
 
             q.innerHTML = `<h2>Quantity - ${amt} grams</h2>`;
         })
